@@ -29,7 +29,7 @@ const RootLayOut = () => {
         <main>
             <div className="sides">
 
-                <div className="sides-right">
+                <div className={`sides-right ${isFixed ? "fixed" : ""}`}>
                     <nav>
                         <NavLink className="btn" to="/TotalBase" >Baza</NavLink>
                         <NavLink className="btn" to="/" >kunlik savdo</NavLink>
