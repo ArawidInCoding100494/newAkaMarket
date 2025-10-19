@@ -1,0 +1,40 @@
+.TotalBase{
+
+
+    &-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid cadetblue;
+        padding-bottom: 15px;
+
+
+        h2{
+            margin-right: 15px;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    }
+}
+
+
+@media(max-width: 415px){
+    .TotalBase{
+
+
+    &-title{
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        border-bottom: 1px solid cadetblue;
+        // padding-bottom: 15px;
+
+
+        // h2{
+        //     margin-right: 15px;
+        //     text-transform: capitalize;
+        //     font-weight: bold;
+        // }
+    }
+}
+}

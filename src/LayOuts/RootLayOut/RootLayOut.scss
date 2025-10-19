@@ -1,0 +1,109 @@
+.RootLayOut{
+
+
+    &-title{
+        text-align: center;
+        padding: 15px 0;
+        background-color: cadetblue;
+        color: white;
+    }
+
+
+    .sides{
+        display: flex;
+        // align-items: center;
+
+
+
+
+        &-right{
+            border: 1px solid cadetblue;
+            padding: 15px;
+            width: 20%;
+
+             nav{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+
+                a{
+                    margin: 15px 0;
+                }
+            }
+
+            
+        }
+
+        &-left{
+             border: 1px solid cadetblue;
+             padding: 15px;
+             width: 80%;
+            
+        }
+    }
+}
+
+
+
+@media(max-width: 415px){
+  .RootLayOut{
+
+
+    &-title{
+        // text-align: center;
+        padding: 10px 0;
+        // background-color: cadetblue;
+        // color: white;
+    }
+
+
+    .sides{
+        display: flex;
+        flex-direction: column;
+
+
+
+        &-right{
+            border: none;
+            padding: 10px 0;
+            width: 100%;
+            margin: 5px auto;
+            
+            // shu right faqat scrol bolganda position:  fixed bolishi kerak
+
+             nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+
+                a{
+                    margin: 10px 0;
+                }
+            }
+
+            
+        }
+
+        &-left{
+             border: 1px solid cadetblue;
+             padding: 10px 0;
+             width: 100%;
+            
+        }
+    }
+
+
+    .sides-right.fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 32, 32, 0.221);
+        z-index: 5;
+        margin: 0;
+
+    }
+}  
+}

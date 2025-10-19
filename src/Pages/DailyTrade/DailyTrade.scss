@@ -1,0 +1,130 @@
+.DailyTrade{
+    padding: 10px;
+    background-color: cadetblue;
+
+
+    &-title{
+        text-align: center;
+        margin: 15px 0;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+
+
+    &-cards{
+
+
+        &-card{
+            border: 2px solid cadetblue;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            
+
+            form{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .card-label{
+                display: flex;
+                flex-direction: column;
+
+
+                &-span{
+                    text-transform: capitalize;
+                }
+
+                &-inp{
+                    outline: none;
+                    text-transform: capitalize;
+                    border: 1px solid cadetblue;
+                    border-radius: 10px;
+                    padding: 5px;
+                }
+            }
+
+            .itogo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-transform: capitalize;
+            }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 415px){
+    .DailyTrade{
+    padding: 10px 0;
+    // background-color: cadetblue;
+
+
+    &-title{
+        // text-align: center;
+        margin: 10px 0;
+        // text-transform: capitalize;
+        // font-weight: bold;
+    }
+
+
+
+    &-cards{
+
+
+        &-card{
+            border: none;
+            margin: 25px 0;
+            padding: 5px;
+            // border-radius: 10px;
+            // background-color: white;
+            
+
+            form{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+
+
+            .card-label{
+                // display: flex;
+                // flex-direction: column;
+                margin-top: 10px;
+
+
+                // &-span{
+                //     text-transform: capitalize;
+                // }
+
+                &-inp{
+                    // outline: none;
+                    // text-transform: capitalize;
+                    // border: 1px solid cadetblue;
+                    // border-radius: 10px;
+                    // padding: 5px;
+                    width: 100px;
+                }
+            }
+
+            .itogo{
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: center;
+                // text-transform: capitalize;
+                border: 1px solid cadetblue;
+
+
+                // span{
+                //     // margin-bottom: 10px;
+                // }
+            }
+            }
+        }
+    }
+}
+}

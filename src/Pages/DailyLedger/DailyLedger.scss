@@ -1,0 +1,59 @@
+.DailyLedger{
+
+
+
+    &-cards{
+
+        padding: 10px;
+        background-color: cadetblue;
+
+        &-title{
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+
+        &-card{
+            background-color: white;
+            margin: 15px 0;
+            padding: 10px 5px;
+            border-radius: 10px;
+
+            .card-time{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px 0;
+                border-bottom: 1px solid cadetblue;
+                padding: 10px 0;
+
+
+                &-title{
+                    text-transform: capitalize;
+                    margin-right: 15px;
+                }
+
+            }
+
+            .card-values{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 10px;
+
+
+                &-span{
+                    text-transform: capitalize;
+                    // border: 1px solid cadetblue;
+                    padding: 6px;
+                    width: 100%;
+                       
+                    p{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}
