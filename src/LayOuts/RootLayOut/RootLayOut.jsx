@@ -21,10 +21,41 @@ const RootLayOut = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+
+
+  const [theme, setTheme] = useState("light")
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme")
+    if(savedTheme){
+      setTheme(savedTheme)
+      document.documentElement.className = savedTheme
+    }
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem("theme", theme)
+    document.documentElement.className = theme
+  }, [theme])
+
+
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light")
+  }
+
+
+
+
+
   return (
     <div className="RootLayOut">
         <header>
-        <h1 className="RootLayOut-title">Aka market 2</h1>
+        <h1 className="RootLayOut-title">Aka market </h1>
+        <button className="btn" onClick={toggleTheme}>
+          {theme === "light" ?  "dark Mode" : "light Mode"}
+          </button>
         </header>
         <main>
             <div className="sides">

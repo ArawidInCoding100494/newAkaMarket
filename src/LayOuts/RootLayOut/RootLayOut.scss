@@ -1,12 +1,27 @@
 .RootLayOut{
+    min-height: 100vh;
 
 
-    &-title{
-        text-align: center;
-        padding: 15px 0;
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
         background-color: cadetblue;
         color: white;
+
+
+         .RootLayOut-title{
+        text-align: center;
+        padding: 15px 0;
     }
+    }
+
+
+   
+
+  
 
 
     .sides{
