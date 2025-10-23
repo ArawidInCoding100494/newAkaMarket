@@ -89,18 +89,22 @@
         // }
 
 
-        // &-notes{
-        //     display: flex;
-        //     align-items: center;
-        //     justify-content: start;
+        &-notes{
+            // display: flex;
+            // align-items: center;
+            // justify-content: start;
 
-        //     p{
-        //         padding: 10px 5px;
-        //         background: white;
-        //         border-radius: 10px;
-        //         margin: 0 15px;
-        //     }
-        // }
+            // p{
+            //     padding: 10px 5px;
+            //     background: white;
+            //     border-radius: 10px;
+            //     margin: 0 15px;
+            // }
+
+            &-nomi{
+                display: none;
+            }
+        }
     }
 }
 }

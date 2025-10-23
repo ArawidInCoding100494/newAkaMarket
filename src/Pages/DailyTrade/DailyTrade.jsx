@@ -61,10 +61,10 @@ const DailyTrade = ({copiedProducts, soldProducts, filterCards}) => {
           return(
             <div className="DailyTrade-cards-card"  key={product.id}  >
 
-
+                <h3 className="DailyTrade-cards-card-title">{product.cName}</h3>
             <form onSubmit={(e) => handelSubmit(e, product)} >
 
-              <label className="card-label">
+              <label className="card-label nomi">
                 <span className="card-label-span">nomi</span>
                 <textarea onChange={(e) => setSoldValue((prev) => {
                   return {...prev, sName: e.target.value}

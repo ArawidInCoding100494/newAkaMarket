@@ -83,6 +83,14 @@
             padding: 5px;
             // border-radius: 10px;
             // background-color: white;
+
+
+            &-title{
+                text-align: center;
+                text-transform: capitalize;
+                margin: 5px 0;
+                text-decoration: underline;
+            }
             
 
             form{
@@ -91,10 +99,18 @@
             gap: 5px;
 
 
+             .nomi{
+                    display: none;
+                }
+
+
             .card-label{
                 // display: flex;
                 // flex-direction: column;
                 margin-top: 10px;
+
+
+               
 
 
                 // &-span{

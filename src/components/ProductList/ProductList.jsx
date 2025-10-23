@@ -25,7 +25,7 @@ const ProductList = ({allProducts, filterCards}) => {
                 <div className="ProductList-card" key={product.id}>
                     <p className="ProductList-card-time"><span>{product.cName}</span> {product.date}</p>
                     <div className="ProductList-card-notes">
-                    <p>nomi: {product.cName}</p>
+                    <p className="ProductList-card-notes-nomi" >nomi: {product.cName}</p>
                     <p>soni: {product.cAmount}</p>
                     <p>narxi: {product.cPrice}</p>
                     <p>itogo: {product.itogo}</p>
