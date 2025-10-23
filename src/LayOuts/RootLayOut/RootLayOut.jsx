@@ -54,7 +54,7 @@ const RootLayOut = () => {
         <header>
         <h1 className="RootLayOut-title">Aka market </h1>
         <button className="btn" onClick={toggleTheme}>
-          {theme === "light" ?  "dark Mode" : "light Mode"}
+          {theme === "light" ?  "🌙" : "🌞"}
           </button>
         </header>
         <main>

@@ -26,10 +26,10 @@
             justify-content: space-around;
 
             span{
-                color: black;
+                // color: black;
                 text-transform: capitalize;
                 font-weight: bold;
-                font-size: 20px;
+                font-size: 22px;
                 border-bottom: 1px solid black;
                 
             }
@@ -49,10 +49,7 @@
                 text-transform: capitalize;
             }
 
-            .itogo{
-                background: cadetblue;
-                border: 1px solid white;
-            }
+            
         }
     }
 }
@@ -101,16 +98,18 @@
             // justify-content: start;
 
             p{
-                padding: 10px 15px;
+                padding: 5px 25px;
                 // background: white;
                 // border-radius: 10px;
                 // margin: 0 15px;
             }
 
-            &-nomi{
-                display: none;
-            }
+             &-nomi{
+            display: none;
         }
+        }
+
+       
     }
 }
 }

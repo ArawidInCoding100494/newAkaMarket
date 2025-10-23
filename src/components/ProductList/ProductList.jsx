@@ -28,7 +28,7 @@ const ProductList = ({allProducts, filterCards}) => {
                     <p className="ProductList-card-notes-nomi" >nomi: <br />{product.cName}:</p>
                     <p>soni: <br /> {product.cAmount}</p>
                     <p>narxi: <br /> {product.cPrice}</p>
-                    <p className="itogo">itogo: <br /> {product.itogo}</p>
+                    <p>itogo: <br /> {product.itogo}</p>
                     </div>
                     
                 </div>
