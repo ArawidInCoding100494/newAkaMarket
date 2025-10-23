@@ -9,7 +9,7 @@ const TotalBase = () => {
        <div className="TotalBase-title">
         <h2>yangi maxsulot qo'shing</h2>
         <nav>
-        <NavLink to="CreatingProduct" className="btn">create</NavLink>
+        <NavLink to="CreatingProduct" className="btn">qo'shish</NavLink>
         </nav>
       </div>
       <Outlet/>

@@ -61,7 +61,7 @@ const DailyTrade = ({copiedProducts, soldProducts, filterCards}) => {
           return(
             <div className="DailyTrade-cards-card"  key={product.id}  >
 
-                <h3 className="DailyTrade-cards-card-title">{product.cName}</h3>
+                <h3 className="DailyTrade-cards-card-title">{product.cName}:</h3>
             <form onSubmit={(e) => handelSubmit(e, product)} >
 
               <label className="card-label nomi">
@@ -91,7 +91,7 @@ const DailyTrade = ({copiedProducts, soldProducts, filterCards}) => {
                 
                 <span>{itogoCounter}</span></p>
 
-              <button className="btn">sell</button>
+              <button className="btn">sotish</button>
 
             </form>
 

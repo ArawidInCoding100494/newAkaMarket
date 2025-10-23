@@ -81,16 +81,15 @@
 
         &-right{
             border: none;
-            padding: 10px 0;
             width: 100%;
-            margin: 5px auto;
-            
-            // shu right faqat scrol bolganda position:  fixed bolishi kerak
+            padding: 10px 0;
+            margin: 5px;
 
              nav{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                padding: 0 10px;
 
 
                 a{
