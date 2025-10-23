@@ -74,23 +74,23 @@ const DailyLedger = ({selled}) => {
               </div>
 
               <div className="card-values">
-                <span className="card-values-span"> nomi
-                  <p>{product.sName}</p>
+                <span className="card-values-span"> nomi:
+                  <p>{product.sName}: </p>
                 </span>
 
-                <span className="card-values-span"> soni
+                <span className="card-values-span"> soni:
                   <p>{product.sAmount}</p>
                 </span>
 
-                <span className="card-values-span"> narxi
+                <span className="card-values-span"> narxi:
                   <p>{product.sPrice}</p>
                 </span>
 
-                <span className="card-values-span"> itogosi
+                <span className="card-values-span"> itogosi:
                   <p>{product.sItogo}</p>
                 </span>
 
-                  <span className="card-values-span"> foyda
+                  <span className="card-values-span"> foyda:
                   <p>{product.profit}</p>
                 </span>
 

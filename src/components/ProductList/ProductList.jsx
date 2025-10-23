@@ -23,12 +23,12 @@ const ProductList = ({allProducts, filterCards}) => {
         {products && products.map((product) => {
             return(
                 <div className="ProductList-card" key={product.id}>
-                    <p className="ProductList-card-time"><span>{product.cName}</span> {product.date}</p>
+                    <p className="ProductList-card-time"><span>{product.cName}: </span> {product.date}</p>
                     <div className="ProductList-card-notes">
-                    <p className="ProductList-card-notes-nomi" >nomi: {product.cName}</p>
-                    <p>soni: {product.cAmount}</p>
-                    <p>narxi: {product.cPrice}</p>
-                    <p>itogo: {product.itogo}</p>
+                    <p className="ProductList-card-notes-nomi" >nomi: <br />{product.cName}:</p>
+                    <p>soni: <br /> {product.cAmount}</p>
+                    <p>narxi: <br /> {product.cPrice}</p>
+                    <p className="itogo">itogo: <br /> {product.itogo}</p>
                     </div>
                     
                 </div>
